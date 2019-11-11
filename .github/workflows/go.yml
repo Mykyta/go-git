@@ -9,8 +9,8 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - name: Nexus Vulnerability Scanner
-      uses: sonatype/nvs-github-action@releases/v1.0.0
+      uses: sonatype/nvs-github-action@develop-with-node-modules
       with:
-        email: mshevelov@sonatype.com
+        email: mshevelov+13@sonatype.com
         password: admin123
         directory: ./
