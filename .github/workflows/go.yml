@@ -13,4 +13,4 @@ jobs:
       with:
         email: ${{ secrets.NVS_SCANNER_EMAIL }}
         password: ${{ secrets.NVS_SCANNER_PASSWORD }}
-        directory: !.
+        directory: ''
